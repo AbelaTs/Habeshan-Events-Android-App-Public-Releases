@@ -27,69 +27,11 @@ Habeshan Events is a community event discovery platform for finding, creating, a
 
 ## Release Process
 
-Releases are built automatically via GitHub Actions from the private source repository. Each release includes:
+Releases are built automatically via GitHub Actions from the private source repository and published here. Each release includes:
 
 - A signed release APK
 - Version number and build number
 - Release notes describing changes
-
-### How to Trigger a Release
-
-Releases are triggered manually via the **Actions** tab:
-
-1. Go to **Actions** → **Build & Release Android APK**
-2. Click **Run workflow**
-3. Enter the **version** (e.g. `1.2.0`)
-4. Optionally enter **release notes**
-5. Click **Run workflow**
-
-The workflow will:
-- Check out the source code from the private repository
-- Build a signed release APK using Flutter
-- Create a GitHub Release with the APK attached
-
-## CI/CD Setup
-
-The workflow requires the following **repository secrets** to be configured:
-
-| Secret | Description |
-|---|---|
-| `SOURCE_REPO` | Private source repo in `owner/repo` format (e.g. `AbelaTs/habeshan_events`) |
-| `SOURCE_REPO_PAT` | GitHub Personal Access Token with `repo` scope for the private source repo |
-| `KEYSTORE_BASE64` | Base64-encoded Android upload keystore (`.jks`) |
-| `KEYSTORE_PASSWORD` | Keystore password |
-| `KEY_PASSWORD` | Key password |
-| `KEY_ALIAS` | Key alias name |
-| `GOOGLE_SERVICES_JSON` | Base64-encoded `google-services.json` from Firebase |
-
-### Generating Secrets
-
-**Keystore (if you don't have one yet):**
-
-```bash
-keytool -genkey -v -keystore upload-keystore.jks -keyalg RSA \
-  -keysize 2048 -validity 10000 -alias upload
-```
-
-**Base64 encode the keystore:**
-
-```bash
-base64 -i upload-keystore.jks | pbcopy
-# Paste into KEYSTORE_BASE64 secret
-```
-
-**Base64 encode google-services.json:**
-
-```bash
-base64 -i mobile/android/app/google-services.json | pbcopy
-# Paste into GOOGLE_SERVICES_JSON secret
-```
-
-**Personal Access Token:**
-
-1. Go to [GitHub Settings → Tokens](https://github.com/settings/tokens)
-2. Generate a **classic** token with `repo` scope
-3. Paste into `SOURCE_REPO_PAT` secret
 
 ## Links
 
