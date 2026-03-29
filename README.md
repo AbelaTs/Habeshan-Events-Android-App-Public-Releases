@@ -23,8 +23,6 @@
 
 Unlike generic event platforms, Habeshan Events is built specifically for our community — understanding our cultural celebrations, diaspora dynamics, and the unique ways we come together.
 
-## Screenshots
-
 <p align="center">
   <img src="screenshots/1-browse-events.png" width="200" alt="Browse Events" />
   &nbsp;&nbsp;
