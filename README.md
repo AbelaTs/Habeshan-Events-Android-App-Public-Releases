@@ -15,6 +15,15 @@ Habeshan Events is a community event discovery platform for finding, creating, a
 - In-app messaging between attendees and organizers
 - Google and Apple sign-in
 
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/1-browse-events.png" width="220" alt="Browse Events" />
+  <img src="screenshots/4-favorites.png" width="220" alt="Favorites" />
+  <img src="screenshots/3-post-event.png" width="220" alt="Post Event" />
+  <img src="screenshots/2-create-event.png" width="220" alt="Create Event" />
+</p>
+
 ## Install
 
 1. Go to [Releases](https://github.com/AbelaTs/Habeshan-Events-Android-App-Public-Releases/releases)
