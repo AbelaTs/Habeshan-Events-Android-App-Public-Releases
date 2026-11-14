@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://habeshanevents.com/icon-512.png" alt="Habeshan Events" width="100" />
+  <img src="https://habeshanevents.com/favicon.png" alt="Habeshan Events" width="100" />
 </p>
 
 <h1 align="center">Habeshan Events</h1>
@@ -77,7 +77,7 @@ Unlike generic event platforms, Habeshan Events is built specifically for our co
 
 Download the latest APK from the **[Releases](https://github.com/AbelaTs/Habeshan-Events-Android-App-Public-Releases/releases)** page.
 
-1. Download `habeshan-events-vX.X.X.apk` from the latest release
+1. Download the `.apk` from the [latest release](https://github.com/AbelaTs/Habeshan-Events-Android-App-Public-Releases/releases/latest)
 2. Open the file on your Android device
 3. Allow installation from unknown sources if prompted
 4. Tap **Install**
@@ -108,7 +108,7 @@ The Habeshan community has never had a dedicated platform like this. Events used
 
 ## Contact & Support
 
-- **Email:** habeshanevents@gmail.com
+- **Email:** [support@habeshanevents.com](mailto:support@habeshanevents.com)
 - **Website:** [habeshanevents.com](https://habeshanevents.com)
 - **iOS App:** [App Store](https://apps.apple.com/us/app/habeshan-events/id6759814994)
 
